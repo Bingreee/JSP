@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/Now")
+@WebServlet("/Now") //서블릿 /NOW와 클래스인 NowServelet 짝지어 놓기
 public class NowServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
